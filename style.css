@@ -140,20 +140,33 @@ body {
     max-width: 150px;
 }
 
-.footer .botao:hover{
+.footer .botao:hover {
     background-color: white;
     color: #000;
 }
 
-.subFooter{
+.subFooter {
     background-color: #02111f;
     margin: 0 0 0;
     padding: 50px;
     text-align: center;
-    
+
     width: 100%;
 }
 
-.subFooter p{
+.subFooter p {
     color: gray;
+}
+
+.servicos {
+    background: #05192A;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    margin: 160px;
+}
+
+.postsServicos {
+    justify-content: center;
 }
