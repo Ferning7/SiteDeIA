@@ -237,3 +237,58 @@ body {
     font-size: 14px;
     margin-bottom: 0;
 }
+
+.servicos {
+    background: #05192A;
+    color: #ffffff;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.servicos h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.servico-bloco {
+    margin: 0 auto 40px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.servico-bloco h2 {
+    font-size: 20px;
+    color: #2aa6ff;
+    margin-bottom: 15px;
+}
+
+.servico-bloco ul,
+.servico-bloco ol {
+    margin-left: 20px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #dcdcdc;
+}
+
+@media screen and (max-width: 658px) {
+
+    .navbar {
+        background: #04233f;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+        box-shadow: 0 0 5px #061f35;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 8px;
+        transition: background 0.3s ease;
+    }
+
+}
